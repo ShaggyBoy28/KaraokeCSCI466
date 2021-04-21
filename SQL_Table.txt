@@ -1,0 +1,73 @@
+CREATE TABLE User(
+	UserNum int AUTO_INCREMENT PRIMARY KEY,
+	UserName varchar(40)
+);
+
+CREATE TABLE Artist(
+	ArtistNum int PRIMARY KEY,
+	ArtistName varchar(40)
+);
+
+CREATE TABLE Contributor(
+	ContNum int PRIMARY KEY,
+	ContName varchar(40),
+	Type varchar(20)
+);
+
+CREATE TABLE Title(
+	TitleNum int PRIMARY KEY,
+	Text varchar(30)
+);
+
+CREATE TABLE MainFile(
+	SongNum int AUTO_INCREMENT PRIMARY KEY,
+	Path varchar(30),
+	TitleNum int,
+	ContNum int,
+
+	FOREIGN KEY(TitleNum) REFERENCES Title(TitleNum),
+	FOREIGN KEY(ContNum) REFERENCES Contributor(ContNum)
+);
+
+CREATE TABLE FreeQueue(
+	AddNum int PRIMARY KEY
+);
+
+CREATE TABLE PaidQueue(
+	AddNum int PRIMARY KEY
+);
+
+CREATE TABLE Freeadd(
+	UserNum int,
+	AddNum int,
+	SongNum int,
+	Time time,
+	PRIMARY KEY (UserNum, AddNum),
+	FOREIGN KEY (UserNum) REFERENCES User (UserNum),
+	FOREIGN KEY (AddNum) REFERENCES FreeQueue (AddNum),
+	FOREIGN KEY (SongNum) REFERENCES MainFile (SongNum)
+);
+
+CREATE TABLE PaidAdd(
+	UserNum int,
+	AddNum int,
+	SongNum int,
+	Time time,
+
+	PRIMARY KEY (UserNum, AddNum),
+	FOREIGN KEY (UserNum) REFERENCES User (UserNum),
+	FOREIGN KEY (AddNum) REFERENCES PaidQueue (AddNum),
+	FOREIGN KEY (SongNum) REFERENCES MainFile (SongNum)
+
+);
+
+CREATE TABLE ArtistFile(
+	ArtistNum int,
+	SongNum int,
+
+	PRIMARY KEY (ArtistNum, SongNum),
+	FOREIGN KEY (ArtistNum) REFERENCES Artist (ArtistNum),
+FOREIGN KEY (SongNum) REFERENCES MainFile (SongNum)
+);
+
+

@@ -1,0 +1,265 @@
+#Insert song, artist of song, and contributor of song.
+
+INSERT INTO Title(TitleNum, Text) values (1, "Love Story");
+INSERT INTO Artist(ArtistNum, ArtistName) values (1, "Taylor Swift");
+INSERT INTO Contributor(ContNum, ContName, Type) values (1, "Taylor Swift", "English");
+
+INSERT INTO Title(TitleNum, Text) values ( 2, "Astonaut In The Ocean");
+INSERT INTO Artist(ArtistNum, ArtistName) values (2, "Masked Wolf");
+INSERT INTO Contributor(ContNum, ContName, Type) values ( 2, "Harry Michael", "English");
+INSERT INTO Contributor(ContNum, ContName, Type) values ( 3, "Tyron Hapi", "English");
+
+INSERT INTO Title(TitleNum, Text) values (3, "Something Just Like This");
+INSERT INTO Artist(ArtistNum, ArtistName) values (3, "The Chainsmokers");
+INSERT INTO Artist(ArtistNum, ArtistName) values (4, "Coldplay");
+INSERT INTO Contributor(ContNum, ContName, Type) values (4, "Andrew Taggart", "English");
+INSERT INTO Contributor(ContNum, ContName, Type) values (5, "Christopher Martin", "English");
+INSERT INTO Contributor(ContNum, ContName, Type) values (6, "Jonny Buckland", "English");
+
+INSERT INTO Title(TitleNum, Text) values (4, "Let Me Down Slowly");
+INSERT INTO Artist(ArtistNum, ArtistName) values (5, "Alec Benjamin");
+INSERT INTO Contributor(ContNum, ContName, Type) values (7, "Alec Benjamin", "English");
+INSERT INTO Contributor(ContNum, ContName, Type) values (8, "Michale Pollack", "English");
+INSERT INTO Contributor(ContNum, ContName, Type) values (9, "Nolan Lambroza", "English");
+
+INSERT INTO Title(TitleNum, Text) values (5, "Six Feet Under");
+INSERT INTO Artist(ArtistNum, ArtistName) values (6, "Billie Eilish");
+INSERT INTO Contributor(ContNum, ContName, Type) values (10, "Finneas O'Connell", "English");
+
+INSERT INTO Title(TitleNum, Text) values (6, "Strawberries&Cigarettes");
+INSERT INTO Artist(ArtistNum, ArtistName) values (7, "Troye Sivan");
+INSERT INTO Contributor(ContNum, ContName, Type) values (11, "Troye Sivan Mellet", "English");
+INSERT INTO Contributor(ContNum, ContName, Type) values (12, "Alex Hope", "English");
+INSERT INTO Contributor(ContNum, ContName, Type) values (13, "Jack Antonoff", "English");
+
+INSERT INTO Title(TitleNum, Text) values (7, "Is It Just Me?");
+INSERT INTO Artist(ArtistNum, ArtistName) values (8, "Sasha Sloan");
+INSERT INTO Artist(ArtistNum, ArtistName) values (9, "Charlie Puth");
+INSERT INTO Contributor(ContNum, ContName, Type) values (14, "Sasha Sloan", "English");
+INSERT INTO Contributor(ContNum, ContName, Type) values (15, "Charlie Puth", "English");
+INSERT INTO Contributor(ContNum, ContName, Type) values (16, "Henry  Agincourt Allen", "English");
+
+INSERT INTO Title(TitleNum, Text) values (8, "Sacrifice");
+INSERT INTO Artist(ArtistNum, ArtistName) values (10, "Bebe Rexha");
+INSERT INTO Contributor(ContNum, ContName, Type) values (17, "Bebe Rexha", "English");
+INSERT INTO Contributor(ContNum, ContName, Type) values (18, "Burns", "English");
+
+INSERT INTO Title(TitleNum, Text) values (9, "Talking To The Moon");
+INSERT INTO Artist(ArtistNum, ArtistName) values (11, "Bruno Mars");
+INSERT INTO Contributor(ContNum, ContName, Type) values (19, "Bruno Mars", "English");
+
+INSERT INTO Title(TitleNum, Text) values (10, "Dance Monkey");
+INSERT INTO Artist(ArtistNum, ArtistName) values (12, "Tones and I");
+INSERT INTO Contributor(ContNum, ContName, Type) values (20, "Toni Watson", "English");
+
+INSERT INTO Title(TitleNum, Text) values (11, "The Monster");
+INSERT INTO Artist(ArtistNum, ArtistName) values (13, "Eminem");
+INSERT INTO Artist(ArtistNum, ArtistName) values (14, "Rihanna");
+INSERT INTO Contributor(ContNum, ContName, Type) values (21, "Eminem", "English");
+INSERT INTO Contributor(ContNum, ContName, Type) values (22, "Bryan Fryzel","English");
+INSERT INTO Contributor(ContNum, ContName, Type) values (23, "Aaron Kleinstub", "English");
+
+INSERT INTO Title(TitleNum, Text) values (12, "We can't stop");
+INSERT INTO Artist(ArtistNum, ArtistName) values (15, "Boyce Avenue");
+INSERT INTO Artist(ArtistNum, ArtistName) values (16, "Bea Miller");
+INSERT INTO Contributor(ContNum, ContName, Type) values (24, "Ricky Walters", "English");
+INSERT INTO Contributor(ContNum, ContName, Type) values (25, "Miley Cyrus", "English");
+INSERT INTO Contributor(ContNum, ContName, Type) values (26, "Douglas L. Davis", "English");
+
+INSERT INTO Title(TitleNum, Text) values (13, "Dancing in My Room");
+INSERT INTO Artist(ArtistNum, ArtistName) values (17, "347aidan");
+INSERT INTO Contributor(ContNum, ContName, Type) values (27, "Aidan Fuller", "English");
+INSERT INTO Contributor(ContNum, ContName, Type) values (28, "Carter Britz","English");
+
+INSERT INTO Title(TitleNum, Text) values (14, "Lalala");
+INSERT INTO Artist(ArtistNum, ArtistName) values (18, "Y2K");
+INSERT INTO Contributor(ContNum, ContName, Type) values (29, "Ari Starace", "English");
+INSERT INTO Contributor(ContNum, ContName, Type) values (30, "Alex Gumuchian", "English");
+
+INSERT INTO Title(TitleNum, Text) values (15, "Beautiful");
+
+INSERT INTO Title(TitleNum, Text) values (16, "Not Afriad");
+
+INSERT INTO Title(TitleNum, Text) values (17, "Till I Collapse");
+INSERT INTO Contributor(ContNum, ContName, Type) values (31, "Luis Resto", "English");
+INSERT INTO Contributor(ContNum, ContName, Type) values (32, "Nathaniel Hale", "English");
+
+INSERT INTO Title(TitleNum, Text) values (18, "Im Born To Run");
+INSERT INTO Artist(ArtistNum, ArtistName) values (19, "American Authors");
+INSERT INTO Contributor(ContNum, ContName, Type) values (33, "Zachary Barnett", "English");
+
+INSERT INTO Title(TitleNum, Text) values (19, "Only One");
+INSERT INTO Artist(ArtistNum, ArtistName) values (20, "The Score");
+INSERT INTO Contributor(ContNum, ContName, Type) values (34, "Edan Dover", "English");
+
+INSERT INTO Title(TitleNum, Text) values (20, "Without Me");
+INSERT INTO Artist(ArtistNum, ArtistName) values (21, "Halsey");
+INSERT INTO Contributor(ContNum, ContName, Type) values (35, "Halsey", "English");
+
+INSERT INTO Title(TitleNum, Text) values (21, "End Of The Night");
+INSERT INTO Artist(ArtistNum, ArtistName) values (22, "Danny Avila");
+INSERT INTO Contributor(ContNum, ContName, Type) values (36, "Dallas Koehlke", "English");
+
+INSERT INTO Title(TitleNum, Text) values (22, "Break Up In A Smaal Town");
+INSERT INTO Artist(ArtistNum, ArtistName) values (23, "Sam Hunt");
+INSERT INTO Contributor(ContNum, ContName, Type) values (37, "Sam Hunt", "English");
+
+INSERT INTO Title(TitleNum, Text) values (23, "Believer");
+INSERT INTO Artist(ArtistNum, ArtistName) values (24, "Imagine Dragons");
+INSERT INTO Contributor(ContNum, ContName, Type) values (38, "Dan Reynolds", "English");
+
+INSERT INTO Title(TitleNum, Text) values (24, "Love In My Pocket");
+INSERT INTO Artist(ArtistNum, ArtistName) values (25, "Rich Brian");
+INSERT INTO Contributor(ContNum, ContName, Type) values (39, "Rich Brian", "English");
+
+INSERT INTO Title(TitleNum, Text) values (25, "Dawn of us");
+INSERT INTO Artist(ArtistNum, ArtistName) values (26, "Jackson Wang");
+INSERT INTO Contributor(ContNum, ContName, Type) values (40, "Jackson Wang", "English");
+
+INSERT INTO Title(TitleNum, Text) values (26, "I Hope");
+INSERT INTO Artist(ArtistNum, ArtistName) values (27, "Gabby Barrett");
+INSERT INTO Contributor(ContNum, ContName, Type) values (41, "Gabby Barrett", "English");
+
+INSERT INTO Title(TitleNum, Text) values (27, "Track Star");
+INSERT INTO Artist(ArtistNum, ArtistName) values (28, "Mooski");
+INSERT INTO Contributor(ContNum, ContName, Type) values (42, "Mooski", "English");
+
+INSERT INTO Title(TitleNum, Text) values (28, "Quick sand");
+INSERT INTO Artist(ArtistNum, ArtistName) values (29, "MoRRay");
+INSERT INTO Contributor(ContNum, ContName, Type) values (43, "Morray", "English");
+
+INSERT INTO Title(TitleNum, Text) values (29, "History");
+INSERT INTO Artist(ArtistNum, ArtistName) values (30, "88 rising");
+INSERT INTO Contributor(ContNum, ContName, Type) values (44, "Marsha", "English");
+
+INSERT INTO Title(TitleNum, Text) values (30, "Arcade");
+INSERT INTO Artist(ArtistNum, ArtistName) values (31, "Duncan Laurence");
+INSERT INTO Contributor(ContNum, ContName, Type) values (45, "Duncan Laurence", "English");
+
+#value in MainFile
+
+INSERT INTO MainFile(TitleNum, ContNum) values (1 , 1);
+INSERT INTO MainFile(TitleNum, ContNum) values (2 , 2);
+INSERT INTO MainFile(TitleNum, ContNum) values (2 , 3);
+INSERT INTO MainFile(TitleNum, ContNum) values (3 , 4);
+INSERT INTO MainFile(TitleNum, ContNum) values (3 , 5);
+INSERT INTO MainFile(TitleNum, ContNum) values (3 , 6);
+INSERT INTO MainFile(TitleNum, ContNum) values (4 , 7);
+INSERT INTO MainFile(TitleNum, ContNum) values (4 , 8);
+INSERT INTO MainFile(TitleNum, ContNum) values (4 , 9);
+INSERT INTO MainFile(TitleNum, ContNum) values (5 , 10);
+INSERT INTO MainFile(TitleNum, ContNum) values (6 , 11);
+INSERT INTO MainFile(TitleNum, ContNum) values (6 , 12);
+INSERT INTO MainFile(TitleNum, ContNum) values (6 , 13);
+INSERT INTO MainFile(TitleNum, ContNum) values (7 , 14);
+INSERT INTO MainFile(TitleNum, ContNum) values (7 , 15);
+INSERT INTO MainFile(TitleNum, ContNum) values (7 , 16);
+INSERT INTO MainFile(TitleNum, ContNum) values (8 , 17);
+INSERT INTO MainFile(TitleNum, ContNum) values (8 , 18);
+INSERT INTO MainFile(TitleNum, ContNum) values (9 , 19);
+INSERT INTO MainFile(TitleNum, ContNum) values (10 , 20);
+INSERT INTO MainFile(TitleNum, ContNum) values (11 , 21);
+INSERT INTO MainFile(TitleNum, ContNum) values (11 , 22);
+INSERT INTO MainFile(TitleNum, ContNum) values (11 , 23);
+INSERT INTO MainFile(TitleNum, ContNum) values (12 , 24);
+INSERT INTO MainFile(TitleNum, ContNum) values (12 , 25);
+INSERT INTO MainFile(TitleNum, ContNum) values (12 , 26);
+INSERT INTO MainFile(TitleNum, ContNum) values (13 , 27);
+INSERT INTO MainFile(TitleNum, ContNum) values (13 , 28);
+INSERT INTO MainFile(TitleNum, ContNum) values (14 , 29);
+INSERT INTO MainFile(TitleNum, ContNum) values (14 , 30);
+INSERT INTO MainFile(TitleNum, ContNum) values (15 , 13);
+INSERT INTO MainFile(TitleNum, ContNum) values (16 , 13);
+INSERT INTO MainFile(TitleNum, ContNum) values (17 , 13);
+INSERT INTO MainFile(TitleNum, ContNum) values (17 , 31);
+INSERT INTO MainFile(TitleNum, ContNum) values (17 , 32);
+INSERT INTO MainFile(TitleNum, ContNum) values (18 , 33);
+INSERT INTO MainFile(TitleNum, ContNum) values (19 , 34);
+INSERT INTO MainFile(TitleNum, ContNum) values (20 , 35);
+INSERT INTO MainFile(TitleNum, ContNum) values (21 , 36);
+INSERT INTO MainFile(TitleNum, ContNum) values (22 , 37);
+INSERT INTO MainFile(TitleNum, ContNum) values (23 , 38);
+INSERT INTO MainFile(TitleNum, ContNum) values (24 , 39);
+INSERT INTO MainFile(TitleNum, ContNum) values (25 , 40);
+INSERT INTO MainFile(TitleNum, ContNum) values (26 , 41);
+INSERT INTO MainFile(TitleNum, ContNum) values (27 , 42);
+INSERT INTO MainFile(TitleNum, ContNum) values (28 , 43);
+INSERT INTO MainFile(TitleNum, ContNum) values (29 , 44);
+INSERT INTO MainFile(TitleNum, ContNum) values (30 , 45);
+
+#User name
+INSERT INTO User(UserName) values ("Liam");
+INSERT INTO User(UserName) values ("Olivia");
+INSERT INTO User(UserName) values ("Oliver");
+INSERT INTO User(UserName) values ("Sophia");
+INSERT INTO User(UserName) values ("James");
+INSERT INTO User(UserName) values ("Mia");
+INSERT INTO User(UserName) values ("Lucas");
+INSERT INTO User(UserName) values ("Harper");
+INSERT INTO User(UserName) values ("Ethan");
+INSERT INTO User(UserName) values ("Emma");
+
+#add data into ArtistFile
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (1 , 1);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (2 , 2);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (3 , 3);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (4 , 3);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (5 , 4);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (6 , 5);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (7 , 6);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (8 , 7);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (9 , 7);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (10 , 8);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (11 , 9);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (12 , 10);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (13 , 11);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (14 , 11);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (15 , 12);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (16 , 12);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (13 , 15);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (13 , 16);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (13 , 17);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (17 , 13);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (18 , 14);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (19 , 18);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (20 , 19);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (21 , 20);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (22 , 21);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (23 , 22);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (24 , 23);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (25 , 24);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (26 , 25);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (27 , 26);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (28 , 27);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (29 , 28);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (30 , 29);
+INSERT INTO ArtistFile(ArtistNum, TitleNum) values (31 , 30);
+
+#add number in FreeQueue
+INSERT INTO FreeQueue(AddNum) values (1);
+INSERT INTO FreeQueue(AddNum) values (2);
+INSERT INTO FreeQueue(AddNum) values (3);
+INSERT INTO FreeQueue(AddNum) values (4);
+INSERT INTO FreeQueue(AddNum) values (5);
+
+#add number in PaidQueue
+INSERT INTO PaidQueue(AddNum) values (1);
+INSERT INTO PaidQueue(AddNum) values (2);
+INSERT INTO PaidQueue(AddNum) values (3);
+INSERT INTO PaidQueue(AddNum) values (4);
+INSERT INTO PaidQueue(AddNum) values (5);
+
+#add user in the free queue
+INSERT INTO FreeAdd(UserNum, AddNum, SongNum, Time) values (1, 1, 10, "14:10:20");
+INSERT INTO FreeAdd(UserNum, AddNum, SongNum, Time) values (3, 2, 15, "14:17:20");
+INSERT INTO FreeAdd(UserNum, AddNum, SongNum, Time) values (5, 3, 18, "14:24:20");
+INSERT INTO FreeAdd(UserNum, AddNum, SongNum, Time) values (7, 4, 21, "14:27:20");
+INSERT INTO FreeAdd(UserNum, AddNum, SongNum, Time) values (9, 5, 24, "14:30:20");
+
+#add user in the paid queue
+INSERT INTO PaidAdd(UserNum, AddNum, SongNum, Time) values (2, 1, 23, "13:05:20");
+INSERT INTO PaidAdd(UserNum, AddNum, SongNum, Time) values (4, 2, 26, "13:15:20");
+INSERT INTO PaidAdd(UserNum, AddNum, SongNum, Time) values (6, 3, 29, "13:21:20");
+INSERT INTO PaidAdd(UserNum, AddNum, SongNum, Time) values (8, 4, 32, "13:28:20");
+INSERT INTO PaidAdd(UserNum, AddNum, SongNum, Time) values (10, 5, 35, "13:33:20");
+
