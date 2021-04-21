@@ -38,6 +38,7 @@ CREATE TABLE PaidQueue(
 );
 
 CREATE TABLE FreeAdd(
+	FreeQueueID INT AUTO_INCREMENT PRIMARY KEY,
 	UserNum int,
 	AddNum int,
 	SongNum int,
@@ -49,6 +50,7 @@ CREATE TABLE FreeAdd(
 );
 
 CREATE TABLE PaidAdd(
+	PaidQueueID INT AUTO_INCREMENT PRIMARY KEY,
 	UserNum int,
 	AddNum int,
 	SongNum int,
