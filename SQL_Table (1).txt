@@ -28,7 +28,7 @@ CREATE TABLE MainFile(
 	FOREIGN KEY(TitleNum) REFERENCES Title(TitleNum),
 	FOREIGN KEY(ContNum) REFERENCES Contributor(ContNum)
 );
-
+/+
 CREATE TABLE FreeQueue(
 	AddNum int PRIMARY KEY
 );
@@ -36,9 +36,9 @@ CREATE TABLE FreeQueue(
 CREATE TABLE PaidQueue(
 	AddNum int PRIMARY KEY
 );
-
-CREATE TABLE FreeAdd(
-	FreeQueueID INT AUTO_INCREMENT PRIMARY KEY,
++/
+CREATE TABLE FreeQueue(
+	FreeQueueNum INT AUTO_INCREMENT PRIMARY KEY,
 	UserNum int,
 	AddNum int,
 	SongNum int,
@@ -49,8 +49,8 @@ CREATE TABLE FreeAdd(
 	FOREIGN KEY (SongNum) REFERENCES MainFile (SongNum)
 );
 
-CREATE TABLE PaidAdd(
-	PaidQueueID INT AUTO_INCREMENT PRIMARY KEY,
+CREATE TABLE PaidQueue(
+	PaidQueueNum INT AUTO_INCREMENT PRIMARY KEY,
 	UserNum int,
 	AddNum int,
 	SongNum int,
