@@ -46,5 +46,7 @@ h1.main-title{
        <form method="post" action="Print.php">
           <input type="search" name="searchbox" class="searchbox" placeholder="Search">
        </form>
-    </body>
+        <br><a href="dj.php">DJ View</a>
+	</body>
+	
 </html>
