@@ -1,7 +1,7 @@
 <?php
-include "secretinfo.php";
+include ('user.php');
 try{
-    $dsn = "mysql:host=courses;dbname=z1838241";
+    $dsn = "mysql:host=courses;dbname=z1849153";
     $pdo = new PDO($dsn, $username, $password);
 }
 catch(PDOexception $e){
